@@ -1,3 +1,9 @@
+#code by Kartheek Vikash Meesala
+#email: letter2kartheekvikashmeesala@gmail.com
+#Run it in VScode or Jupitor as online compilers may not support GUI output
+#https://github.com/kartheekvikash/Algorithms.git
+
+
 import tkinter as tk  # Import tkinter for GUI creation
 from tkinter import messagebox, scrolledtext  # Import messagebox for alerts, scrolledtext for large text fields
 import random  # Import random module for probabilistic level assignment

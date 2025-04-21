@@ -1,3 +1,8 @@
+#code by Kartheek Vikash Meesala
+#email: letter2kartheekvikashmeesala@gmail.com
+#Run it in VScode or Jupitor as online compilers may not support GUI output
+#https://github.com/kartheekvikash/Algorithms.git
+
 import tkinter as tk
 from tkinter import messagebox
 import math

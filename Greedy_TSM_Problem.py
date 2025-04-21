@@ -110,4 +110,18 @@ canvas.pack(pady=10)
 result_label = tk.Label(root, text="Total Distance: N/A\nVisited Order: N/A", font=("Arial", 14))
 result_label.pack(pady=10)
 
+# Algorithm Definition & Uses
+algo_label = tk.Label(root, text=(
+    "Algorithm: Greedy Traveling Salesman Problem (TSP)\n\n"
+    "Definition: The Greedy TSP algorithm finds an approximate shortest route "
+    "by always selecting the closest next point. While not optimal, it provides "
+    "a fast and efficient solution in many practical scenarios.\n\n"
+    "Real-World Applications:\n"
+    "• Delivery route optimization (e.g., postal services)\n"
+    "• Circuit design for minimal wiring connections\n"
+    "• Logistics planning for warehouse operations\n"
+    "• City traffic routing for autonomous vehicles"
+), font=("Arial", 12), justify="left", wraplength=1100)
+algo_label.pack(pady=20)
+
 root.mainloop()
